@@ -35,3 +35,33 @@
 | Result | Test Name |
 |--------|-----------|
 | Failed | `test_scc_blackbox.py::TestSCCBlackBox::test_fail_charge_at_cold_temperature` |
+| Failed | `test_scc_blackbox.py::TestSCCBlackBox::test_fail_charge_double_invalid` |
+| Failed | `test_scc_blackbox.py::TestSCCBlackBox::test_fail_discharge_overhot_battery` |
+| Failed | `test_scc_blackbox.py::TestSCCBlackBox::test_fail_invalid_charge_at_high_voltage` |
+| Failed | `test_scc_blackbox.py::TestSCCBlackBox::test_fail_invalid_charge_at_high_voltage` |
+| Failed | `test_scc_blackbox.py::TestSCCBlackBox::test_fail_invalid_charge_at_high_voltage` |
+
+---
+
+## ✅ Passed Tests
+
+| Result | Test Name |
+|--------|-----------|
+| Passed | `test_scc_blackbox.py::TestSCCBlackBox::test_fail_invalid_charge_at_high_voltage` |
+| Passed | `test_scc_blackbox.py::TestSCCBlackBox::test_battery_heater_off_above_5	1 ms`|	
+| Passed | `test_scc_blackbox.py::TestSCCBlackBox::test_battery_heater_on_below_5	1 ms`|	
+| Passed | `test_scc_blackbox.py::TestSCCBlackBox::test_charge_at_temp_boundary_high	1 ms`|	
+| Passed | `test_scc_blackbox.py::TestSCCBlackBox::test_charge_at_temp_boundary_low	1 ms`|	
+| Passed | `test_scc_blackbox.py::TestSCCBlackBox::test_charge_blocked_high_voltage	1 ms`|	
+| Passed | `test_scc_blackbox.py::TestSCCBlackBox::test_charge_blocked_low_temp	1 ms`|
+| Passed | `test_scc_blackbox.py::TestSCCBlackBox::test_charge_zero_if_all_invalid	1 ms`|
+| Passed | `test_scc_blackbox.py::TestSCCBlackBox::test_discharge_at_temp_boundary_high	1 ms`|
+| Passed | `test_scc_blackbox.py::TestSCCBlackBox::test_discharge_at_temp_boundary_low	1 ms`|	
+| Passed | `test_scc_blackbox.py::TestSCCBlackBox::test_discharge_blocked_high_temp	1 ms`|	
+| Passed | `test_scc_blackbox.py::TestSCCBlackBox::test_discharge_blocked_low_voltage	1 ms`|	
+| Passed | `test_scc_blackbox.py::TestSCCBlackBox::test_injectors_consume_power	1 ms`|	
+| Passed | `test_scc_blackbox.py::TestSCCBlackBox::test_injectors_present	1 ms`|	
+| Passed | `test_scc_blackbox.py::TestSCCBlackBox::test_max_pv_handled	1 ms`|	
+| Passed | `test_scc_blackbox.py::TestSCCBlackBox::test_restart_block_if_not_reached_51	1 ms`|
+| Passed | `test_scc_blackbox.py::TestSCCBlackBox::test_valid_charge	1 ms`|
+| Passed | `test_scc_blackbox.py::TestSCCBlackBox::test_valid_discharge	1 ms`|
